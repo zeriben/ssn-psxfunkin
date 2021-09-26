@@ -46,12 +46,12 @@ typedef struct
 
 //GF character definitions
 static const CharFrame char_gf_frame[] = {
-	{GF_ArcMain_BopLeft, {  0,   0,  74, 103}, { 40,  73}}, //0 bop left 1
-	{GF_ArcMain_BopLeft, { 74,   0,  73, 102}, { 39,  73}}, //1 bop left 2
-	{GF_ArcMain_BopLeft, {147,   0,  73, 102}, { 39,  73}}, //2 bop left 3
-	{GF_ArcMain_BopLeft, {  0, 103,  73, 103}, { 39,  74}}, //3 bop left 4
-	{GF_ArcMain_BopLeft, { 73, 102,  82, 105}, { 43,  76}}, //4 bop left 5
-	{GF_ArcMain_BopLeft, {155, 102,  81, 105}, { 43,  76}}, //5 bop left 6
+	{GF_ArcMain_BopLeft, {  0,   0,  79, 100}, { 40,  73}}, //0 bop left 1
+	{GF_ArcMain_BopLeft, { 80,   0,  78, 98}, { 40,  74}}, //1 bop left 2
+	{GF_ArcMain_BopLeft, {158,   0,  78, 100}, { 40,  74}}, //2 bop left 3
+	{GF_ArcMain_BopLeft, {  0, 103,  79, 100}, { 40,  74}}, //3 bop left 4
+	{GF_ArcMain_BopLeft, { 89, 99,  78, 105}, { 40,  74}}, //4 bop left 5
+	{GF_ArcMain_BopLeft, {167, 100,  80, 105}, { 40,  74}}, //5 bop left 6
 	
 	{GF_ArcMain_BopRight, {  0,   0,  81, 103}, { 43,  74}}, //6 bop right 1
 	{GF_ArcMain_BopRight, { 81,   0,  81, 103}, { 43,  74}}, //7 bop right 2
