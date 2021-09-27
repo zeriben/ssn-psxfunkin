@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Prerequisites
 *.d
 
@@ -50,3 +51,46 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+=======
+# Exclude files that shouldn't be included
+do.sh
+pcsx.json
+memcard1.mcd
+memcard2.mcd
+license*.dat
+libgcc_s_dw2-1.dll
+libstdc++-6.dll
+mips/psyq/
+
+# Exclude executable files
+*.cue
+*.elf
+*.bin
+*.map
+*.ps-exe
+*.exe
+tools/funkinarcpak/funkinarcpak
+tools/funkinchartpak/funkinchartpak
+tools/funkinpicopak/funkinpicopak
+tools/funkintimconv/funkintimconv
+tools/psxavenc/psxavenc
+tools/xainterleave/xainterleave
+
+# Exclude object and link files
+obj/
+bin/
+*.o
+*.dep
+.vscode/
+
+# Exclude CMake build directory
+build/
+
+# Exclude converted assets
+iso/*/*.tim
+iso/*/*.arc
+iso/*/*.xa
+iso/*/*.cht
+
+# Big Chungus
+>>>>>>> master
