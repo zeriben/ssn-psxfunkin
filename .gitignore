@@ -4,6 +4,8 @@ pcsx.json
 memcard1.mcd
 memcard2.mcd
 license*.dat
+libgcc_s_dw2-1.dll
+libstdc++-6.dll
 mips/psyq/
 
 # Exclude executable files
@@ -25,6 +27,7 @@ obj/
 bin/
 *.o
 *.dep
+.vscode/
 
 # Exclude CMake build directory
 build/
